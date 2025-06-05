@@ -1,7 +1,6 @@
 import React , {useState}from 'react'
 import '../../src/components/Text.css'
 
-import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer, toast } from 'react-toastify';
 
 
