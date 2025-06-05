@@ -164,7 +164,7 @@ const handleChange=()=>{
 }}    >Convert to CamelCase</button>
 <br />
 <button type="button" className="L-button btn btn-info "onClick= {()=>{showToastL()
-   handleLcase()}} >Convert to Lower case</button>
+   handleLcase()}} >Convert to down case</button>
   
   <br />
   <button type="button" className="L-button btn btn-success " onClick={()=>{toCapitalizeFirstLetter()
