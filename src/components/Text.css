@@ -1,0 +1,35 @@
+/* Make sure full height is applied */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+
+.centered-textarea {
+  width: 80%;
+  max-width: 600px;
+  height:250px;
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+    border-style: dotted;
+  border-width: 2px;
+  border-radius: 15px;
+}
+
+/* npm install react-toastify
+ */
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
