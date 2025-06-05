@@ -169,7 +169,7 @@ const handleChange=()=>{
   <br />
   <button type="button" className="L-button btn btn-success " onClick={()=>{toCapitalizeFirstLetter()
     showToastF()
-  }}> CapitalizeFirstLetter</button>
+  }}> CapitalizeInitialLetter</button>
 <br />
   <button type="button" className="L-button btn btn-warning " onClick={()=>{toCapitalizeEachWord()
   showToastE()}}> CapitalizeEachLetter</button>
