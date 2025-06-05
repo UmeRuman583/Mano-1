@@ -161,7 +161,7 @@ const handleChange=()=>{
 <div className='button-container'>
 <button type="button" className="centered-button btn btn-secondary" onClick={()=>{handleUpperCase()
   showToastU()
-}}    >Convert to UpperCase</button>
+}}    >Convert to CamelCase</button>
 <br />
 <button type="button" className="L-button btn btn-info "onClick= {()=>{showToastL()
    handleLcase()}} >Convert to Lower case</button>
